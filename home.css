@@ -1,0 +1,142 @@
+
+.table1{
+    width: 100%;
+    height:100%;
+}
+.col1{
+background-color: rgba(97, 18, 215, 0.985);
+}
+.table2{
+  border-radius: 20px;
+}
+.entireContent{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+   box-sizing: border-box;
+}
+.rightTopic{
+    margin: 30px 80px 40px 80px;
+}
+form{
+    margin: 10px 80px 10px 80px;
+}
+.tabnavreg{
+  margin: 60px 150px 0 150px;
+}
+.tablenav{
+  background-color: rgba(50, 10, 111, 0.985);
+  width: 30%;
+  height: 100%;
+  margin-left: 30px;
+  text-decoration: none;
+  text-align: start;
+  border-radius: 20px 0px 0px 20px;
+}
+.tablenav  h3 img{
+  border-radius: 15px;
+}
+.tablenav h3{
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align:center;
+margin-top: 50px;
+}
+
+.tablenav ul{
+
+list-style-type:circle;
+list-style-position: inside;
+margin: 20px 0 80px 120px;
+
+}
+.tablenav .image{
+
+  opacity:0.5;
+ margin:100px 60px 0px 90px ;
+  justify-items:end;
+}
+.tablereg{
+    background-color: rgb(226, 171, 209);
+    width: 100%;
+    border-radius: 0px 20px 20px 0px;
+}
+.rytContent1{
+  width: 40%;
+  height: fit-content;
+}
+.rytContent2{
+  width: 40%;
+  height: fit-content;
+}
+.fileType{
+display:block;
+
+}
+input [type="file"]{
+  
+}
+label{
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.rytContent1 input{
+  margin: 4px 0 5px 0;
+}
+/* .rytContent2 input{
+  margin: 4px 0 5px 0;
+} */
+  input{
+    margin: 10px 0 20px 0;
+    padding: 8px;
+    width: 16em;
+  }
+  .radio {
+	background: #ebecf1;
+	padding: 8px;
+	position: relative;
+}
+.radio input {
+	width: 7.5em;
+	height: 100%;
+	appearance: none;
+	outline: none;
+	cursor: pointer;
+	padding:4px;
+	background: #e2e3ecfc;
+	color: #03021eec;
+	font-size: 14px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		"Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	transition: all 100ms linear;
+}
+
+.radio input:checked {
+	background-image: linear-gradient(180deg, #e5b5cb, #e6b6d2);
+	color: #fff;
+	box-shadow: 0 1px 1px #fffcfcff;
+	text-shadow: 0 1px 0px #79485f7a;
+}
+.radio input:before {
+	content: attr(label);
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+footer button{
+  border-radius: 20px;
+  padding: 8px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 100px;
+  
+}
+.btn1{
+margin-left: 80px;
+}
+.btn2{
+margin-left: 250px;
+background-color: rgb(4, 4, 41);
+color: white;
+}
