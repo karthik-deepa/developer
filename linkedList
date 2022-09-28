@@ -1,0 +1,73 @@
+package Collection;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+
+/*syntax of storing array list:
+ * |prenode(preref)|value1|prenext(nextref)|--|prenode|value2|prenect|--|prenode|value3|prenect|--n
+ * non-synchronized,dupilicate value will allow,insertion order,
+ */
+public class LinkedListEx1
+{
+	public static void main(String[] args)
+	
+	{
+		List<Integer> tst=new LinkedList<>(); 
+		tst.toString();
+		tst.add(1872);
+		tst.add(126);
+		tst.add(10);
+		tst.add(92);
+		List<Integer> tst1=new LinkedList<>();
+		tst1.add(23);
+		tst1.add(124);
+		List<Integer> tst2=new LinkedList<>();
+		tst2.add(812);
+		tst2.add(192);
+		
+		tst2.addAll(tst1);
+		tst.addAll(tst2);
+		
+		tst.get(7);//return index value for 10
+		tst.get(7).hashCode();
+		tst.size();
+		System.out.println("size"+tst.size());
+		tst.contains(54);
+		System.out.println("get the position value:"+tst.get(7));
+		System.out.println("hashcode:"+tst.get(7).hashCode());
+		System.out.println("contains:"+tst.contains(54));
+		
+		Iterator ex1=tst.iterator();//err tst
+		while(ex1.hasNext()) {
+			System.out.println("value in txt:::"+ex1.next());//ex1.hasNext()
+		}
+		for(Integer ex:tst) {
+			System.out.println("value in txt:::"+ex);
+		}
+		
+	}
+
+}
+
+
+size8
+get the position value:124
+hashcode:124
+contains:false
+value in txt:::1872
+value in txt:::126
+value in txt:::10
+value in txt:::92
+value in txt:::812
+value in txt:::192
+value in txt:::23
+value in txt:::124
+value in txt:::1872
+value in txt:::126
+value in txt:::10
+value in txt:::92
+value in txt:::812
+value in txt:::192
+value in txt:::23
+value in txt:::124
